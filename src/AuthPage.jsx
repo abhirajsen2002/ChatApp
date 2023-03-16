@@ -8,7 +8,7 @@ const AuthPage = (props) => {
         console.log(password)
 
         axios.post(
-            'http://localhost:3001/authenticate',
+            'chatapp-backend-production.up.railway.app/authenticate',
             {
                 username: value,
                 password: password
